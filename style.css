@@ -73,13 +73,27 @@ body{
   top: 20px;
   right: 20px;
   color: blue;
+  background: pink;
 }
 .En{
   color: blue;
+  background: green;
 }
 h2{
  font-weight: bold;
 }
 .end{
   margin-top: 30px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(255, 0, 0, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 85% 30%, rgba(0, 255, 150, 0.05) 0%, transparent 50%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: sans-serif;
 }
