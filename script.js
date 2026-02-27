@@ -25,3 +25,11 @@ function toggleMode() {
         dark = true;
     }
 }
+let input = document.getElementById("username");
+let button = document.getElementById("entranceBtn");
+
+input.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    button.click();
+  }
+});
